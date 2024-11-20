@@ -1,0 +1,1 @@
+ D:\\Flutter\ course\\mi_card_flutter\\.dart_tool\\flutter_build\\6391274f6f0a27e44d47e73dee7b721e\\native_assets.yaml: 
