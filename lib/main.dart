@@ -168,8 +168,8 @@ class MyApp extends StatelessWidget {
         
               //Email id
               InfoTile(
-                info: 'prateek@gmail.com',
-                display: 'prateekprajapati062004@gmail.com',
+                info: 'prateekprajapati062004@gmail.com',
+                display: 'prateek@gmail.com',
                 icon: Icon(
                   Icons.mail,
                   color: Colors.teal.shade500,

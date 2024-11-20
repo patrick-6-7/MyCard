@@ -44,7 +44,7 @@ class InfoTile extends StatelessWidget {
                   width: 20,
                 ),
                 Text(
-                  info,
+                  display,
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     color: Colors.teal.shade500, 
@@ -57,7 +57,7 @@ class InfoTile extends StatelessWidget {
             IconButton(
               icon: Icon(Icons.copy, color: Colors.teal.shade500),
               onPressed: () {
-                Clipboard.setData(ClipboardData(text: display));
+                Clipboard.setData(ClipboardData(text: info));
                 ScaffoldMessenger.of(context).showSnackBar(
                   const SnackBar(content: Text('Copied to clipboard')),
                 );
